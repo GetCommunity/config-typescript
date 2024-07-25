@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Typescript Library TSConfig",
+  "extends": "./base.json",
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js",
+    "lib": [
+      "ESNext",
+    ],
+    "newLine": "LF",
+    "allowJs": false,
+    "sourceMap": true,
+    "types": [
+      "node",
+    ],
+  },
+}

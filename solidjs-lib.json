@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "SolidJs Library TSConfig",
+  "extends": "./base.json",
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js",
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ESNext"
+    ],
+    "newLine": "LF",
+    "allowJs": false,
+    "sourceMap": true,
+    "types": [
+      "solid-js",
+      "vite/client",
+      "node",
+      "@testing-library/jest-dom",
+      "vitest/globals"
+    ]
+  },
+}
