@@ -16,6 +16,7 @@
     "newLine": "LF",
     "allowJs": false,
     "sourceMap": true,
+    "isolatedModules": true,
     "types": [
       "solid-js",
       "vite/client",
