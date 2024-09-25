@@ -6,8 +6,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/getcommunity/config-typescript.git"
-  }
+  "repository": "getcommunity/config-typescript.git"
 }
