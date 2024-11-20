@@ -1,5 +1,11 @@
 # @getcommunity/config-typescript
 
+## 0.0.4
+
+### Patch Changes
+
+- 3f2dafd: updated package dependencies
+
 ## 0.0.3
 
 ### Patch Changes
