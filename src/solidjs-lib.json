@@ -25,4 +25,15 @@
       "vitest/globals"
     ]
   },
+  "exclude": [
+    "node_modules/",
+    "build/",
+    "dist/",
+    "scripts/",
+    "public/",
+    ".wrangler/",
+    ".vinxi/",
+    ".vercel/",
+    ".tmp/",
+  ]
 }
