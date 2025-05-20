@@ -2,7 +2,7 @@
 
 ## 0.0.5
 
-### Minor Changes
+### Patch Changes
 
 - moved files to src directory
 - expanded packages tools
