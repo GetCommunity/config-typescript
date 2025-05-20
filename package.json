@@ -1,10 +1,32 @@
 {
   "name": "@getcommunity/config-typescript",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "license": "MIT",
+  "author": "@GetCommunity <joey@getcommunity.com> (https://github.com/GetCommunity)",
+  "contributors": [
+    "Joey Grable <joey@getcommunity.com> (https://joeygrable.com)"
+  ],
+  "exports": {
+    "./base.json": "./src/base.json",
+    "./solidjs-app.json": "./src/solidjs-app.json",
+    "./solidjs-lib.json": "./src/solidjs-lib.json",
+    "./strapi-app.json": "./src/strapi-app.json",
+    "./ts-lib.json": "./src/ts-lib.json"
+  },
+  "files": [
+    "src"
+  ],
+  "peerDependencies": {
+    "@strapi/typescript-utils": "^5.12.7",
+    "@types/node": "^22.15.19",
+    "typescript": "^5.0.0"
+  },
   "private": false,
   "publishConfig": {
     "access": "public"
   },
-  "repository": "getcommunity/config-typescript.git"
+  "repository": "getcommunity/config-typescript.git",
+  "scripts": {
+    "publish-manual": "npm publish"
+  }
 }

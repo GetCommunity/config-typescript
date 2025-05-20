@@ -1,5 +1,12 @@
 # @getcommunity/config-typescript
 
+## 0.0.5
+
+### Minor Changes
+
+- moved files to src directory
+- expanded packages tools
+
 ## 0.0.4
 
 ### Patch Changes
