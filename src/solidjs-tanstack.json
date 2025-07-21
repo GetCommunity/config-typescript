@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "SolidJs Tanstack App TSConfig",
+  "extends": "./base.json",
+  "compilerOptions": {
+    "strict": true,
+    "esModuleInterop": true,
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js",
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ES2022"
+    ],
+    "noEmit": true,
+    "allowJs": true,
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "types": [
+      "solid-js",
+      "@cloudflare/workers-types",
+      "@types/grecaptcha",
+      "@types/node",
+    ],
+  },
+  "exclude": [
+    "node_modules",
+    "build",
+    "dist",
+    "scripts",
+    "public",
+    ".wrangler",
+    ".vinxi",
+    ".vercel",
+    ".nitro",
+    ".output",
+    ".tanstack",
+    ".tmp",
+  ]
+}

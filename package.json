@@ -8,6 +8,7 @@
   ],
   "exports": {
     "./base.json": "./src/base.json",
+    "./solidjs-tanstack.json": "./src/solidjs-tanstack.json",
     "./solidjs-app.json": "./src/solidjs-app.json",
     "./solidjs-lib.json": "./src/solidjs-lib.json",
     "./strapi-app.json": "./src/strapi-app.json",
