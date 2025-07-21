@@ -23,8 +23,6 @@
     "skipLibCheck": true,
     "types": [
       "solid-js",
-      "@cloudflare/workers-types",
-      "@types/grecaptcha",
       "@types/node",
     ],
   },
