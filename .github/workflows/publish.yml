@@ -33,14 +33,6 @@ jobs:
           scope: "@joeygrable94"
           always-auth: true
 
-      - name: Install PNPM
-        run: npm install -g pnpm
-
-      - name: Install & Build
-        run: |
-          pnpm install
-          pnpm run build
-
       - name: Bump patch version
         run: |
           git config user.name "github-actions[bot]"
