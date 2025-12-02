@@ -10,13 +10,13 @@ importers:
     dependencies:
       '@strapi/typescript-utils':
         specifier: ^5.12.7
-        version: 5.18.1
+        version: 5.31.2
       '@types/node':
         specifier: ^22.15.19
-        version: 22.16.5
+        version: 22.19.1
       typescript:
         specifier: ^5.0.0
-        version: 5.8.3
+        version: 5.9.3
 
 packages:
 
@@ -24,12 +24,12 @@ packages:
     resolution: {integrity: sha512-ooWCrlZP11i8GImSjTHYHLkvFDP48nS4+204nGb1RiX/WXYHmJA2III9/e2DWVabCESdW7hBAEzHRqUn9OUVvQ==}
     engines: {node: '>=0.1.90'}
 
-  '@strapi/typescript-utils@5.18.1':
-    resolution: {integrity: sha512-Ai9I/ErYA52NTpqcB9Y3dMVbh2ZvZw+ASYQQy0yUb8t8D0QFpJNyMkO+HWxrNJDvCOI3gGYMHZ9UdheiwaVblg==}
-    engines: {node: '>=18.0.0 <=22.x.x', npm: '>=6.0.0'}
+  '@strapi/typescript-utils@5.31.2':
+    resolution: {integrity: sha512-FMSlHyCwZ8kkyYgugvIBPmMXs2TXsqZc9f4N3mvlpcJXsK2ZmA1Ds/2QXatLC4+iCGkU7lRYzbvquGDfDamneQ==}
+    engines: {node: '>=20.0.0 <=24.x.x', npm: '>=6.0.0'}
 
-  '@types/node@22.16.5':
-    resolution: {integrity: sha512-bJFoMATwIGaxxx8VJPeM8TonI8t579oRvgAuT8zFugJsJZgzqv0Fu8Mhp68iecjzG7cnN3mO2dJQ5uUM2EFrgQ==}
+  '@types/node@22.19.1':
+    resolution: {integrity: sha512-LCCV0HdSZZZb34qifBsyWlUmok6W7ouER+oQIGBScS8EsZsQbrtFTUrDX4hOl+CS6p7cnNC4td+qrSVGSCTUfQ==}
 
   ansi-regex@5.0.1:
     resolution: {integrity: sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ==}
@@ -72,8 +72,8 @@ packages:
     resolution: {integrity: sha512-zymm5+u+sCsSWyD9qNaejV3DFvhCKclKdizYaJUuHA83RLjb7nSuGnddCHGv0hk+KY7BMAlsWeK4Ueg6EV6XQg==}
     engines: {node: '>=8'}
 
-  jsonfile@6.1.0:
-    resolution: {integrity: sha512-5dgndWOriYSm5cnYaJNhalLNDKOqFwyDB/rr1E9ZsGciGvKPs8R2xYGCacuf3z6K1YKDz182fd+fY3cn3pMqXQ==}
+  jsonfile@6.2.0:
+    resolution: {integrity: sha512-FGuPw30AdOIUTRMC2OMRtQV+jkVj2cfPqSeWXv1NEAJ1qZ5zb1X6z1mFhbfOB/iy3ssJCD+3KuZ8r8C3uVFlAg==}
 
   lodash@4.17.21:
     resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
@@ -100,8 +100,8 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
-  typescript@5.8.3:
-    resolution: {integrity: sha512-p1diW6TqL9L07nNxvRMM7hMMw4c5XOo/1ibL4aAIGmSAt9slTE1Xgw5KWuof2uTOvCg9BY7ZRi+GaF+7sfgPeQ==}
+  typescript@5.9.3:
+    resolution: {integrity: sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -117,7 +117,7 @@ snapshots:
   '@colors/colors@1.5.0':
     optional: true
 
-  '@strapi/typescript-utils@5.18.1':
+  '@strapi/typescript-utils@5.31.2':
     dependencies:
       chalk: 4.1.2
       cli-table3: 0.6.5
@@ -126,7 +126,7 @@ snapshots:
       prettier: 3.3.3
       typescript: 5.4.4
 
-  '@types/node@22.16.5':
+  '@types/node@22.19.1':
     dependencies:
       undici-types: 6.21.0
 
@@ -158,7 +158,7 @@ snapshots:
   fs-extra@11.2.0:
     dependencies:
       graceful-fs: 4.2.11
-      jsonfile: 6.1.0
+      jsonfile: 6.2.0
       universalify: 2.0.1
 
   graceful-fs@4.2.11: {}
@@ -167,7 +167,7 @@ snapshots:
 
   is-fullwidth-code-point@3.0.0: {}
 
-  jsonfile@6.1.0:
+  jsonfile@6.2.0:
     dependencies:
       universalify: 2.0.1
     optionalDependencies:
@@ -193,7 +193,7 @@ snapshots:
 
   typescript@5.4.4: {}
 
-  typescript@5.8.3: {}
+  typescript@5.9.3: {}
 
   undici-types@6.21.0: {}
 
