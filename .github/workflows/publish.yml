@@ -1,6 +1,7 @@
 name: Build, Version & Publish
 
 permissions:
+  id-token: write
   contents: write
 
 on:
@@ -19,18 +20,11 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v6
-        with:
-          node-version: "22"
-          registry-url: "https://registry.npmjs.org"
-
       - name: Setup Node.js & Auth
         uses: actions/setup-node@v6
         with:
-          node-version: "22"
+          node-version: "24"
           registry-url: "https://registry.npmjs.org"
-          scope: "@joeygrable94"
 
       - name: Bump patch version
         run: |

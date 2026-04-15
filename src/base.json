@@ -8,7 +8,6 @@
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": false,
     "resolveJsonModule": true,
-    "baseUrl": ".",
     "paths": {
       "@/*": [
         "./*"
