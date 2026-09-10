@@ -7,7 +7,7 @@
     "module": "ESNext",
     "moduleResolution": "Bundler",
     "jsx": "preserve",
-    "jsxImportSource": "solid-js",
+    "jsxImportSource": "@solidjs/web",
     "lib": [
       "DOM",
       "DOM.Iterable",
@@ -18,10 +18,9 @@
     "sourceMap": true,
     "isolatedModules": true,
     "types": [
-      "solid-js",
+      "@testing-library/jest-dom",
       "vite/client",
       "node",
-      "@testing-library/jest-dom",
       "vitest/globals"
     ]
   },
